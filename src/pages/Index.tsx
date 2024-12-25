@@ -1,4 +1,4 @@
-import { TelegramIcon, TiktokIcon, WalletIcon } from "lucide-react";
+import { MessageSquare, Video, Wallet } from "lucide-react";
 import GlassButton from "@/components/GlassButton";
 
 const Index = () => {
@@ -26,17 +26,17 @@ const Index = () => {
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
           <GlassButton
             href="https://t.me/DancingKenny"
-            icon={<TelegramIcon className="w-5 h-5" />}
+            icon={<MessageSquare className="w-5 h-5" />}
             label="Telegram"
           />
           <GlassButton
             href="https://www.tiktok.com/@dancing.kenny?_t=8sWULevupkM&_r=1"
-            icon={<TiktokIcon className="w-5 h-5" />}
+            icon={<Video className="w-5 h-5" />}
             label="TikTok"
           />
           <GlassButton
             href="https://pump.fun/coin/EPKGZVre3RzaEWSmWHeMXrqe4N22RuE5WdPoWiy5LQNo"
-            icon={<WalletIcon className="w-5 h-5" />}
+            icon={<Wallet className="w-5 h-5" />}
             label="Buy"
           />
         </div>
