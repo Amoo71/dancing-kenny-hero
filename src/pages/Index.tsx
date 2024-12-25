@@ -4,7 +4,7 @@ import GlassButton from "@/components/GlassButton";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900/90 via-blue-950 to-black text-white">
-      <div className="container max-w-4xl mx-auto px-4 py-12 flex flex-col items-center">
+      <div className="container max-w-4xl mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-screen">
         {/* Hero Section */}
         <div className="w-full max-w-md mb-8 rounded-2xl overflow-hidden shadow-2xl">
           <img
@@ -15,15 +15,15 @@ const Index = () => {
         </div>
 
         {/* CA Address */}
-        <div className="mb-8 text-center">
+        <div className="mb-8 text-center w-full max-w-md">
           <p className="text-sm text-gray-300 mb-2">CA:</p>
-          <p className="text-xs sm:text-sm font-mono bg-black/30 px-4 py-2 rounded-lg">
+          <p className="text-xs sm:text-sm font-mono bg-black/30 px-4 py-2 rounded-lg break-all">
             EPKGZVre3RzaEWSmWHeMXrqe4N22RuE5WdPoWiy5LQNo
           </p>
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-md">
           <GlassButton
             href="https://t.me/DancingKenny"
             icon={<MessageSquare className="w-5 h-5" />}

@@ -14,7 +14,7 @@ const GlassButton = ({ href, icon, label, className, ...props }: GlassButtonProp
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "flex items-center justify-center gap-2 px-6 py-3 rounded-xl",
+        "flex items-center justify-center gap-2 px-4 py-3 rounded-xl w-full",
         "bg-black/20 backdrop-blur-sm border border-white/10",
         "transition-all duration-300 ease-out",
         "hover:scale-105 hover:shadow-lg hover:bg-white/5",
