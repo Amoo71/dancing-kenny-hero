@@ -41,10 +41,7 @@ const Index = () => {
           />
           <GlassButton
             href="https://x.com/dancingdkenny?s=21"
-            icon={<div className="flex items-center gap-1">
-              <span className="text-sm font-bold">𝕏</span>
-              <span className="text-xl">𝕏</span>
-            </div>}
+            icon={<span className="text-xl">𝕏</span>}
             label="X"
           />
         </div>
