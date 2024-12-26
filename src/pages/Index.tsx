@@ -1,4 +1,4 @@
-import { MessageSquare, Video, Wallet, X } from "lucide-react";
+import { MessageSquare, Video, Wallet } from "lucide-react";
 import GlassButton from "@/components/GlassButton";
 
 const Index = () => {
@@ -23,7 +23,7 @@ const Index = () => {
         </div>
 
         {/* Buttons */}
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 w-full max-w-md">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-md">
           <GlassButton
             href="https://pump.fun/coin/EPKGZVre3RzaEWSmWHeMXrqe4N22RuE5WdPoWiy5LQNo"
             icon={<Wallet className="w-5 h-5" />}
@@ -41,7 +41,7 @@ const Index = () => {
           />
           <GlassButton
             href="https://x.com/dancingdkenny?s=21"
-            icon={<X className="w-5 h-5" />}
+            icon={<span className="text-xl">𝕏</span>}
             label="X"
           />
         </div>
